@@ -10,6 +10,7 @@ RUN set -eux; \
         git rsync tmux jq vim htop curl ca-certificates openssl \
         psmisc \
         nftables tcpdump bind9-dnsutils iproute2 traceroute \
+        iputils-ping \
         zstd zip \
         python3 python3-venv \
         ; \
